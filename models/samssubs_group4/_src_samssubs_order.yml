@@ -1,0 +1,14 @@
+version: 2
+
+sources:
+  - name: samssubs_landing
+    database: braxtonmartin
+    schema: SAMSSUBS_SOURCE_SAMS_SUBS
+    tables:
+      - name: customer
+      - name: employee
+      - name: '"ORDER"'
+      - name: orderdetails
+      - name: product
+      - name: sandwich
+      - name: store
